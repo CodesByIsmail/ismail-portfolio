@@ -1,0 +1,143 @@
+@layer colors {
+    :root {
+        --brown: #7b542f;
+        --light-brown: #b6771d;
+
+        --secondary-amber: #f59e0b; /* for hover */
+        --golden-yellow: #fbbf24; /* for buttons links and key highlights */
+
+        --warm-dark: #1c1917;
+        --off-white: #e7e5e4;
+
+        --light-base: #fef3c7;
+        --light-surface: #fffbeb;
+
+        --white: #fff;
+
+        --menu-background: #292524;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--light-surface);
+    position: relative;
+}
+
+.uil {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--golden-yellow);
+}
+
+.logo {
+    font-family: 'Playwrite DE SAS', cursive;
+    font-size: 1.5rem;
+    color: var(--golden-yellow);
+}
+
+nav {
+    background: var(--warm-dark);
+    color: var(--white);
+    height: 4rem;
+    width: 100vw;
+    position: relative;
+}
+
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+    height: 4rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu-close {
+    cursor: pointer;
+    padding: 0 2rem;
+}
+
+.nav__list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 10rem;
+    z-index: 1;
+    background: var(--menu-background);
+    height: 100vh;
+    /* width: 100%; */
+    /* text-align: center; */
+    padding: 1rem 0;
+
+    display: none;
+}
+
+.nav__links {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    padding: 5rem;
+}
+
+/* .nav__list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+} */
+
+.nav__links a {
+    padding: rem;
+    border-radius: 5px;
+    color: var(--off-white);
+}
+
+.nav__list ul li a:hover {
+    color: var(--golden-yellow);
+}
+.nav__list ul li a:active {
+    color: var(--secondary-amber);
+}
+
+main {
+    /* width: 80%; */
+    /* margin: 0 auto;   */
+    padding: 5rem;
+    text-align: center;
+}
+
+.ismail__links {
+    margin-top: 2.5rem;
+}
+
+.ismail__links a {
+    margin-left: 1rem;
+    padding: 0.8rem 2rem;
+    border-radius: 4px;
+    border: 1px brown solid;
+    color: brown;
+}
+
+.ismail__links a:nth-child(2) {
+    background: brown;
+    color: white;
+    /* border-color: black; */
+}
+
+.ismail__descr {
+    margin: 2rem 0 1rem 0;
+}
+
+/* FIXME */
