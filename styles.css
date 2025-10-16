@@ -141,3 +141,29 @@ main {
 }
 
 /* FIXME */
+
+@media screen and (min-width: 780px) {
+    .navbar__toggle {
+        display: none;
+    }
+
+    .nav__list{
+        display: block;
+        position: static;
+        height: auto;
+        background: none;
+        padding: 0;
+        flex-direction: row;
+    }
+
+    .nav__links{
+        flex-direction: row;
+        padding: 0;
+
+        
+    }
+
+    #menu-close{
+        display: none;
+    }
+}
