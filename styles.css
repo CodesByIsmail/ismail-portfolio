@@ -99,7 +99,7 @@ nav {
 } */
 
 .nav__links a {
-    padding: rem;
+    padding: 1rem;
     border-radius: 5px;
     color: var(--off-white);
 }
@@ -126,12 +126,12 @@ main {
     margin-left: 1rem;
     padding: 0.8rem 2rem;
     border-radius: 4px;
-    border: 1px brown solid;
+    border: 1px var(--brown) solid;
     color: brown;
 }
 
 .ismail__links a:nth-child(2) {
-    background: brown;
+    background: var(--brown);
     color: white;
     /* border-color: black; */
 }
