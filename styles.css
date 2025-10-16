@@ -36,12 +36,6 @@
 body {
     font-family: 'Outfit', sans-serif;
     background: var(--light-surface);
-    position: relative;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column; */
 }
 
 h1{
@@ -90,8 +84,7 @@ nav {
 }
 
 .navbar {
-    /* width: 80%; */
-    /* margin: 0 auto; */
+
     height: 4rem;
 
     display: flex;
@@ -171,6 +164,7 @@ nav {
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
+        transition: all 500ms ease-in-out;
 }
 
 .ismail__profile img {
@@ -178,6 +172,7 @@ nav {
     height: 250px;
     width: 250px;
     border-radius: 50%;
+    transition: all 500ms ease-in-out;
 }
 
 .ismail__links {
@@ -223,6 +218,36 @@ nav {
     /* padding: 3rem 2rem; */
 }
 
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 50px; */
+    border-radius: 40px;
+    display: inline-flex;
+    gap: 1rem;
+    border: 2px solid var(--warm-dark);
+    background: var(--golden-yellow);
+    padding: .6rem;
+}
+
+.skills{
+    margin: 3rem 0;
+}
+
+.skills__icons{
+    margin-top: 2rem;
+}
+
+.skills__icon{
+    width: 30px;
+    /* height: 30px; */
+    /* width: 100%; */
+    /* max-width: 70px; */
+    overflow: hidden;
+    object-fit: contain;
+}
+
 .journey__container{
     padding: 3rem 0;
 }
@@ -240,6 +265,9 @@ nav {
     border-radius: 10px;
     color: var(--warm-dark);
     border-bottom: 5px solid var(--brown);
+    transition: all 1s ease-in-out;
+    transition-delay: 1s;
+    
 }
 
 .journey h3{
