@@ -104,10 +104,10 @@ nav {
     color: var(--off-white);
 }
 
-.nav__list ul li a:hover {
+.nav__list a:hover {
     color: var(--golden-yellow);
 }
-.nav__list ul li a:active {
+.nav__list a:active {
     color: var(--secondary-amber);
 }
 
