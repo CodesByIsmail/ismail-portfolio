@@ -141,12 +141,7 @@ nav {
     transition: all 0.3s ease-in-out;
 }
 
-.nav__list a:hover {
-    color: var(--golden-yellow);
-    transform: translateY(-20px);
 
-    transition: all 0.3s ease-in-out;
-}
 .nav__list a:active {
     color: var(--secondary-amber);
 }
@@ -414,6 +409,13 @@ nav {
         flex-direction: row;
         padding: 0;
     }
+    
+    .nav__list a:hover {
+    color: var(--golden-yellow);
+    transform: translateY(-20px);
+
+    transition: all 0.3s ease-in-out;
+}
 
     #menu-close {
         display: none;
