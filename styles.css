@@ -432,6 +432,11 @@ nav {
         transition: 0.3s ease-in-out;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
+    
+    .journeys{
+        flex-direction: row;
+        
+    }
 
     .journey {
         background: var(--golden-yellow);
@@ -441,6 +446,7 @@ nav {
         border-bottom: 5px solid var(--light-brown);
         transition: all 0.3s ease-in-out;
         /* transition-delay: .8s; */
+        //width: 100/3%;
     }
 
     .journey:hover {
