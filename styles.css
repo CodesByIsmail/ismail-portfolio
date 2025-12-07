@@ -203,16 +203,7 @@ nav {
     /* border-color: black; */
 }
 
-.ismail__links a:hover {
-    background: var(--secondary-amber);
-    color: var(--warm-dark);
-    border-color: var(--secondary-amber);
-    transition: 0.5s ease-in-out;
 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
-    transform: translateY(-10px);
-}
 
 .ismail__descr {
     margin: 2rem 0 1rem 0;
@@ -412,7 +403,7 @@ nav {
     
     .nav__list a:hover {
     color: var(--golden-yellow);
-    transform: translateY(-20px);
+    transform: translateY(-5px);
 
     transition: all 0.3s ease-in-out;
 }
@@ -420,6 +411,18 @@ nav {
     #menu-close {
         display: none;
     }
+    
+    .ismail__links a:hover {
+    background: var(--secondary-amber);
+    color: var(--warm-dark);
+    border-color: var(--secondary-amber);
+    transition: 0.5s ease-in-out;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    transform: translateY(-5px);
+}
+    
     .skill {
         background: var(--golden-yellow);
     }
